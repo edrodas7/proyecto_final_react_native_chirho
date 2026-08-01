@@ -1,5 +1,22 @@
 # Documento final - StockTrack Mobile Chirho
 
+## Tabla de contenido
+
+1. Definición del proyecto
+2. Resumen ejecutivo
+3. Instalación y ejecución
+4. Funcionalidades principales
+5. Organización del repositorio
+6. Arquitectura técnica
+7. Persistencia local
+8. Sincronización offline
+9. Funcionalidades core
+10. Componentización
+11. Wireframes
+12. Evidencia visual
+13. Conclusiones técnicas
+14. Enlaces
+
 ## 1. Definición del proyecto
 
 **Nombre:** StockTrack Mobile Chirho
@@ -10,7 +27,59 @@
 
 **Público objetivo:** Dueños, encargados de bodega, vendedores y personal operativo de tiendas pequeñas, ferreterías, bodegas o emprendimientos.
 
-## 2. Funcionalidades principales
+## 2. Resumen ejecutivo
+
+StockTrack Mobile Chirho es una aplicación móvil-first para gestionar inventario de pequeños negocios. La solución permite registrar productos, controlar entradas y salidas, detectar bajo stock y trabajar sin conexión mediante persistencia local y sincronización simulada.
+
+El proyecto resuelve el problema de llevar inventarios en hojas de cálculo, notas manuales o registros poco confiables. La app centraliza la información clave del inventario en una interfaz sencilla, reproducible y preparada para evolucionar hacia una solución productiva con backend y base de datos móvil.
+
+## 3. Instalación y ejecución
+
+Para ejecutar el proyecto en un entorno local se requiere tener instalado Node.js y npm.
+
+1. Clonar el repositorio:
+
+```bash
+git clone git@github.com:edrodas7/proyecto_final_react_native_chirho.git
+```
+
+2. Entrar a la carpeta del proyecto:
+
+```bash
+cd proyecto_final_react_native_chirho
+```
+
+3. Instalar dependencias:
+
+```bash
+npm install
+```
+
+4. Ejecutar la aplicación en modo desarrollo:
+
+```bash
+npm start
+```
+
+5. Abrir la app en el navegador:
+
+```text
+http://localhost:3000
+```
+
+6. Ejecutar pruebas unitarias:
+
+```bash
+npm test -- --watchAll=false
+```
+
+7. Generar build de producción:
+
+```bash
+npm run build
+```
+
+## 4. Funcionalidades principales
 
 - Dashboard con métricas generales del inventario.
 - Lista de productos con búsqueda y filtros por categoría.
@@ -21,7 +90,7 @@
 - Persistencia local para conservar datos en el dispositivo.
 - Sincronización offline simulada mediante estados pendientes y sincronizados.
 
-## 3. Organización del repositorio
+## 5. Organización del repositorio
 
 ```text
 src/
@@ -37,7 +106,7 @@ README.md
 
 La estructura separa la interfaz, los estilos y la lógica de inventario. `App.js` contiene las pantallas y componentes; `inventory.js` centraliza datos iniciales, persistencia y funciones reutilizables.
 
-## 4. Arquitectura técnica
+## 6. Arquitectura técnica
 
 ```mermaid
 flowchart TD
@@ -51,7 +120,7 @@ flowchart TD
 
 La arquitectura separa responsabilidades para facilitar mantenimiento. Las pantallas no escriben directamente lógica compleja de datos; usan funciones auxiliares como `loadInventoryStateChirho`, `saveInventoryStateChirho`, `getInventoryMetricsChirho`, `buildProductChirho` y `applyMovementChirho`.
 
-## 5. Persistencia local
+## 7. Persistencia local
 
 La persistencia se implementa con `localStorage`, una tecnología disponible en navegadores modernos. La app guarda un objeto con productos, movimientos y fecha de última sincronización.
 
@@ -65,7 +134,7 @@ export function saveInventoryStateChirho(stateChirho) {
 
 Esta decisión permite que el usuario cierre la aplicación y conserve los datos creados. En una versión productiva, esta capa podría migrarse a SQLite, Room, Hive o AsyncStorage, manteniendo la misma separación de responsabilidades.
 
-## 6. Sincronización offline
+## 8. Sincronización offline
 
 La app simula conectividad con un control `Online/Offline`.
 
@@ -87,7 +156,7 @@ flowchart TD
   G --> H[Actualizar lastSyncAt]
 ```
 
-## 7. Funcionalidades core
+## 9. Funcionalidades core
 
 La funcionalidad central es el control de stock mediante productos y movimientos. Cada movimiento modifica la cantidad disponible del producto.
 
@@ -105,7 +174,7 @@ export function applyMovementChirho(productChirho, movementTypeChirho, quantityC
 }
 ```
 
-## 8. Componentización
+## 10. Componentización
 
 La interfaz reutiliza componentes como:
 
@@ -115,7 +184,7 @@ La interfaz reutiliza componentes como:
 
 Esta componentización evita duplicación y facilita extender la app con más pantallas.
 
-## 9. Wireframes
+## 11. Wireframes
 
 Se incluyen wireframes de baja fidelidad en la carpeta `docs/wireframes/`. Estos bocetos muestran la estructura de las pantallas principales y el flujo offline:
 
@@ -127,7 +196,7 @@ Se incluyen wireframes de baja fidelidad en la carpeta `docs/wireframes/`. Estos
 
 Explicación del flujo: el usuario inicia en el dashboard, revisa alertas o entra a la lista de productos. Desde la lista puede abrir el detalle de un producto, registrar entradas o salidas, o editar la información. Si necesita agregar un producto nuevo, usa el formulario. Cuando la app está offline, los cambios quedan pendientes; al volver online, se sincronizan manualmente desde el dashboard.
 
-## 10. Evidencia visual
+## 12. Evidencia visual
 
 Agregar capturas reales de:
 
@@ -138,13 +207,13 @@ Agregar capturas reales de:
 - Cambio pendiente.
 - Sincronización completada en modo online.
 
-## 11. Conclusiones técnicas
+## 13. Conclusiones técnicas
 
 StockTrack Mobile Chirho demuestra cómo construir una solución móvil organizada para controlar inventario de forma local. El mayor desafío fue modelar un flujo offline comprensible sin depender de un backend real. La solución adoptada fue guardar los cambios en el dispositivo y etiquetarlos con estados de sincronización.
 
 Como mejora futura, se podría integrar autenticación, backend real, escaneo de códigos de barras, exportación a PDF/Excel y almacenamiento local más robusto mediante SQLite o una base de datos móvil.
 
-## 12. Enlaces
+## 14. Enlaces
 
 **Repositorio GitHub:** https://github.com/edrodas7/proyecto_final_react_native_chirho
 
