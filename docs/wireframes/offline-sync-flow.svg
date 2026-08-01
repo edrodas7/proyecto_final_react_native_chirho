@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Wireframe flujo offline StockTrack Mobile Chirho</title>
+  <desc id="desc">Boceto del flujo desde un cambio local offline hasta la sincronizacion online.</desc>
+  <rect width="900" height="520" fill="#f8fafc"/>
+  <text x="40" y="56" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#111827">Flujo offline y sincronizacion</text>
+  <text x="40" y="84" font-family="Arial, sans-serif" font-size="14" fill="#4b5563">Los cambios se guardan primero en el dispositivo y luego se sincronizan cuando vuelve la conexion.</text>
+
+  <rect x="50" y="140" width="160" height="86" rx="10" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+  <text x="78" y="176" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">Usuario crea</text>
+  <text x="76" y="198" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">producto o movimiento</text>
+
+  <path d="M220 183 H292" fill="none" stroke="#111827" stroke-width="2"/>
+  <path d="M292 183 l-10 -7 v14 z" fill="#111827"/>
+
+  <rect x="310" y="126" width="170" height="114" rx="10" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+  <text x="354" y="166" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">Validar conexion</text>
+  <text x="346" y="194" font-family="Arial, sans-serif" font-size="13" fill="#4b5563">Online / Offline</text>
+
+  <path d="M490 158 H572" fill="none" stroke="#111827" stroke-width="2"/>
+  <path d="M572 158 l-10 -7 v14 z" fill="#111827"/>
+  <text x="512" y="145" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Online</text>
+
+  <rect x="590" y="116" width="190" height="86" rx="10" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+  <text x="634" y="151" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">Guardar como</text>
+  <text x="658" y="175" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">synced</text>
+
+  <path d="M395 250 V326" fill="none" stroke="#111827" stroke-width="2"/>
+  <path d="M395 326 l-7 -10 h14 z" fill="#111827"/>
+  <text x="408" y="292" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Offline</text>
+
+  <rect x="300" y="344" width="190" height="86" rx="10" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+  <text x="336" y="379" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">Guardar como</text>
+  <text x="357" y="403" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">pending</text>
+
+  <path d="M500 387 H572" fill="none" stroke="#111827" stroke-width="2"/>
+  <path d="M572 387 l-10 -7 v14 z" fill="#111827"/>
+
+  <rect x="590" y="344" width="190" height="86" rx="10" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+  <text x="632" y="379" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">Cola local de</text>
+  <text x="653" y="403" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">cambios</text>
+
+  <path d="M685 334 V212" fill="none" stroke="#111827" stroke-width="2" stroke-dasharray="7 6"/>
+  <path d="M685 212 l-7 10 h14 z" fill="#111827"/>
+  <text x="708" y="280" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Sync al volver online</text>
+</svg>

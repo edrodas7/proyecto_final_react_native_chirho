@@ -1,0 +1,395 @@
+.app-shell-chirho {
+  width: min(100%, 980px);
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: 18px 14px 92px;
+}
+
+.topbar-chirho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 10px 0 16px;
+}
+
+.topbar-chirho h1,
+.section-block-chirho h2,
+.sync-panel-chirho h2,
+.form-panel-chirho h2,
+.detail-panel-chirho h2 {
+  margin: 0;
+  letter-spacing: 0;
+}
+
+.topbar-chirho h1 {
+  font-size: 1.8rem;
+  line-height: 1;
+}
+
+.eyebrow-chirho {
+  margin: 0 0 5px;
+  color: #5f6d7a;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+button {
+  border: 0;
+  border-radius: 8px;
+  background: #0f766e;
+  color: white;
+  min-height: 44px;
+  padding: 0 14px;
+  font-weight: 800;
+  box-shadow: 0 8px 18px rgba(15, 118, 110, 0.18);
+}
+
+button.secondary-chirho {
+  background: #ffffff;
+  color: #17202a;
+  border: 1px solid #d8e0e8;
+  box-shadow: none;
+}
+
+button.compact-chirho {
+  min-height: 34px;
+  padding: 0 10px;
+  font-size: 0.82rem;
+}
+
+button.full-chirho {
+  width: 100%;
+}
+
+button:disabled {
+  opacity: 0.55;
+}
+
+.connection-toggle-chirho {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-width: 104px;
+  flex: 0 0 auto;
+  box-shadow: none;
+}
+
+.connection-toggle-chirho.offline {
+  background: #475569;
+}
+
+.connection-toggle-chirho.online {
+  background: #0f766e;
+}
+
+.tabs-chirho {
+  position: fixed;
+  left: 50%;
+  bottom: 14px;
+  z-index: 5;
+  width: min(calc(100% - 24px), 520px);
+  transform: translateX(-50%);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+  padding: 7px;
+  border: 1px solid rgba(124, 138, 153, 0.22);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 16px 44px rgba(23, 32, 42, 0.18);
+  backdrop-filter: blur(12px);
+}
+
+.tabs-chirho button {
+  min-height: 42px;
+  padding: 0 8px;
+  background: transparent;
+  color: #53616f;
+  box-shadow: none;
+}
+
+.tabs-chirho button.active {
+  background: #17202a;
+  color: #ffffff;
+}
+
+.screen-chirho {
+  display: grid;
+  gap: 16px;
+}
+
+.metric-grid-chirho,
+.detail-grid-chirho {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.metric-chirho {
+  min-height: 86px;
+  padding: 13px;
+  border: 1px solid #e1e8ef;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.metric-chirho span {
+  display: block;
+  color: #647485;
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.metric-chirho strong {
+  display: block;
+  margin-top: 8px;
+  color: #17202a;
+  font-size: 1.45rem;
+  line-height: 1.1;
+}
+
+.metric-chirho.warning strong {
+  color: #a16207;
+}
+
+.metric-chirho.danger strong {
+  color: #b42318;
+}
+
+.sync-panel-chirho,
+.detail-panel-chirho,
+.form-panel-chirho,
+.section-block-chirho {
+  border: 1px solid #e1e8ef;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 15px;
+}
+
+.sync-panel-chirho {
+  display: grid;
+  gap: 14px;
+}
+
+.sync-panel-chirho p,
+.detail-panel-chirho p,
+.movement-row-chirho p {
+  margin: 6px 0 0;
+  color: #5f6d7a;
+}
+
+.section-heading-chirho,
+.detail-title-chirho {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.section-heading-chirho h2,
+.sync-panel-chirho h2,
+.form-panel-chirho h2,
+.detail-panel-chirho h2 {
+  font-size: 1.12rem;
+}
+
+.filters-chirho,
+.inline-fields-chirho {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+label {
+  display: grid;
+  gap: 6px;
+  color: #374151;
+  font-size: 0.86rem;
+  font-weight: 800;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  min-height: 44px;
+  border: 1px solid #cfdae6;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #17202a;
+  padding: 10px 12px;
+  outline: none;
+}
+
+textarea {
+  min-height: 92px;
+  resize: vertical;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #0f766e;
+  box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.12);
+}
+
+.product-list-chirho,
+.movement-list-chirho,
+.form-panel-chirho,
+.detail-panel-chirho {
+  display: grid;
+  gap: 10px;
+}
+
+.product-card-chirho {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  padding: 13px;
+  border: 1px solid #e1e8ef;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.product-main-chirho {
+  min-height: auto;
+  padding: 0;
+  text-align: left;
+  background: transparent;
+  color: inherit;
+  box-shadow: none;
+}
+
+.product-name-chirho,
+.product-code-chirho,
+.product-meta-chirho {
+  display: block;
+}
+
+.product-name-chirho {
+  font-weight: 900;
+  color: #17202a;
+}
+
+.product-code-chirho {
+  margin-top: 4px;
+  color: #0f766e;
+  font-size: 0.78rem;
+  font-weight: 900;
+}
+
+.product-meta-chirho {
+  margin-top: 6px;
+  color: #647485;
+  font-size: 0.88rem;
+}
+
+.product-actions-chirho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.status-chirho {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 0 9px;
+  border-radius: 999px;
+  font-size: 0.76rem;
+  font-weight: 900;
+}
+
+.status-chirho.ok {
+  color: #0f766e;
+  background: #dff7ef;
+}
+
+.status-chirho.low {
+  color: #a16207;
+  background: #fef3c7;
+}
+
+.status-chirho.pending {
+  color: #b42318;
+  background: #fee4e2;
+}
+
+.movement-row-chirho {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid #edf2f7;
+}
+
+.movement-row-chirho:last-child {
+  border-bottom: 0;
+}
+
+.movement-meta-chirho {
+  display: grid;
+  justify-items: end;
+  gap: 4px;
+  color: #17202a;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.movement-meta-chirho small {
+  color: #647485;
+  font-size: 0.72rem;
+}
+
+.empty-chirho {
+  margin: 0;
+  color: #647485;
+  text-align: center;
+  padding: 18px;
+}
+
+@media (min-width: 720px) {
+  .app-shell-chirho {
+    padding: 28px 24px 112px;
+  }
+
+  .topbar-chirho h1 {
+    font-size: 2.35rem;
+  }
+
+  .metric-chirho strong {
+    font-size: 1.65rem;
+  }
+
+  .screen-chirho {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .metric-grid-chirho {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .filters-chirho,
+  .inline-fields-chirho {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sync-panel-chirho {
+    grid-template-columns: 1fr auto;
+    align-items: center;
+  }
+
+  .product-card-chirho {
+    grid-template-columns: 1fr auto;
+    align-items: center;
+  }
+
+  .product-actions-chirho {
+    min-width: 220px;
+  }
+}

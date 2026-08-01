@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844" role="img" aria-labelledby="title desc">
+  <title id="title">Wireframe formulario StockTrack Mobile Chirho</title>
+  <desc id="desc">Boceto del formulario para crear o editar productos del inventario.</desc>
+  <rect width="390" height="844" fill="#f8fafc"/>
+  <rect x="18" y="18" width="354" height="808" rx="24" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+  <text x="36" y="62" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#6b7280">NUEVO PRODUCTO</text>
+  <text x="36" y="92" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#111827">Formulario</text>
+
+  <text x="36" y="134" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#374151">Nombre</text>
+  <rect x="36" y="146" width="318" height="44" rx="8" fill="#ffffff" stroke="#111827"/>
+  <line x1="56" y1="168" x2="224" y2="168" stroke="#9ca3af" stroke-width="8"/>
+
+  <text x="36" y="218" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#374151">SKU</text>
+  <rect x="36" y="230" width="318" height="44" rx="8" fill="#ffffff" stroke="#111827"/>
+  <line x1="56" y1="252" x2="180" y2="252" stroke="#9ca3af" stroke-width="8"/>
+
+  <text x="36" y="302" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#374151">Categoria</text>
+  <rect x="36" y="314" width="146" height="44" rx="8" fill="#ffffff" stroke="#111827"/>
+  <text x="54" y="342" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Materiales</text>
+  <text x="208" y="302" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#374151">Precio</text>
+  <rect x="208" y="314" width="146" height="44" rx="8" fill="#ffffff" stroke="#111827"/>
+  <line x1="228" y1="336" x2="284" y2="336" stroke="#9ca3af" stroke-width="8"/>
+
+  <text x="36" y="386" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#374151">Cantidad</text>
+  <rect x="36" y="398" width="146" height="44" rx="8" fill="#ffffff" stroke="#111827"/>
+  <line x1="56" y1="420" x2="96" y2="420" stroke="#9ca3af" stroke-width="8"/>
+  <text x="208" y="386" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#374151">Stock minimo</text>
+  <rect x="208" y="398" width="146" height="44" rx="8" fill="#ffffff" stroke="#111827"/>
+  <line x1="228" y1="420" x2="268" y2="420" stroke="#9ca3af" stroke-width="8"/>
+
+  <text x="36" y="470" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#374151">Descripcion</text>
+  <rect x="36" y="482" width="318" height="92" rx="8" fill="#ffffff" stroke="#111827"/>
+  <line x1="56" y1="512" x2="266" y2="512" stroke="#9ca3af" stroke-width="8"/>
+  <line x1="56" y1="538" x2="214" y2="538" stroke="#d1d5db" stroke-width="8"/>
+
+  <rect x="36" y="606" width="318" height="46" rx="8" fill="#f3f4f6" stroke="#111827"/>
+  <text x="146" y="635" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Crear producto</text>
+
+  <rect x="48" y="746" width="294" height="48" rx="8" fill="#ffffff" stroke="#111827"/>
+  <text x="74" y="776" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#6b7280">Inicio</text>
+  <text x="143" y="776" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#6b7280">Productos</text>
+  <text x="231" y="776" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#6b7280">Detalle</text>
+  <text x="295" y="776" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#111827">Nuevo</text>
+</svg>

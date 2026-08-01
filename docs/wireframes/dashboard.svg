@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844" role="img" aria-labelledby="title desc">
+  <title id="title">Wireframe dashboard StockTrack Mobile Chirho</title>
+  <desc id="desc">Boceto de la pantalla inicial con metricas, sincronizacion y alertas de bajo stock.</desc>
+  <rect width="390" height="844" fill="#f8fafc"/>
+  <rect x="18" y="18" width="354" height="808" rx="24" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+  <text x="36" y="60" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#6b7280">GESTOR DE INVENTARIO</text>
+  <text x="36" y="88" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#111827">StockTrack Chirho</text>
+  <rect x="270" y="48" width="70" height="32" rx="16" fill="#ffffff" stroke="#111827"/>
+  <circle cx="286" cy="64" r="5" fill="#111827"/>
+  <text x="300" y="68" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#111827">Offline</text>
+
+  <rect x="36" y="120" width="146" height="78" rx="8" fill="#f3f4f6" stroke="#111827"/>
+  <text x="50" y="145" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#374151">Productos</text>
+  <text x="50" y="178" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#111827">4</text>
+  <rect x="208" y="120" width="146" height="78" rx="8" fill="#f3f4f6" stroke="#111827"/>
+  <text x="222" y="145" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#374151">Bajo stock</text>
+  <text x="222" y="178" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#111827">2</text>
+  <rect x="36" y="214" width="146" height="78" rx="8" fill="#f3f4f6" stroke="#111827"/>
+  <text x="50" y="239" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#374151">Pendientes</text>
+  <text x="50" y="272" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#111827">4</text>
+  <rect x="208" y="214" width="146" height="78" rx="8" fill="#f3f4f6" stroke="#111827"/>
+  <text x="222" y="239" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#374151">Valor</text>
+  <text x="222" y="272" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#111827">Q2,331</text>
+
+  <rect x="36" y="316" width="318" height="112" rx="8" fill="#ffffff" stroke="#111827"/>
+  <text x="54" y="346" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#111827">Sincronizacion local</text>
+  <line x1="54" y1="365" x2="244" y2="365" stroke="#9ca3af" stroke-width="8"/>
+  <line x1="54" y1="386" x2="205" y2="386" stroke="#d1d5db" stroke-width="8"/>
+  <rect x="238" y="374" width="88" height="34" rx="8" fill="#f3f4f6" stroke="#111827"/>
+  <text x="258" y="396" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#111827">Sync</text>
+
+  <text x="36" y="470" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#111827">Alertas de bajo stock</text>
+  <rect x="36" y="492" width="318" height="82" rx="8" fill="#ffffff" stroke="#111827"/>
+  <text x="54" y="522" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">Guantes anticorte</text>
+  <line x1="54" y1="542" x2="178" y2="542" stroke="#9ca3af" stroke-width="8"/>
+  <rect x="250" y="514" width="76" height="28" rx="14" fill="#f3f4f6" stroke="#111827"/>
+  <text x="264" y="533" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#111827">Bajo stock</text>
+  <rect x="36" y="590" width="318" height="82" rx="8" fill="#ffffff" stroke="#111827"/>
+  <text x="54" y="620" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">Filtro para mascarilla</text>
+  <line x1="54" y1="640" x2="188" y2="640" stroke="#9ca3af" stroke-width="8"/>
+  <rect x="250" y="612" width="76" height="28" rx="14" fill="#f3f4f6" stroke="#111827"/>
+  <text x="264" y="631" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#111827">Bajo stock</text>
+
+  <rect x="48" y="746" width="294" height="48" rx="8" fill="#ffffff" stroke="#111827"/>
+  <text x="74" y="776" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#111827">Inicio</text>
+  <text x="143" y="776" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#6b7280">Productos</text>
+  <text x="231" y="776" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#6b7280">Detalle</text>
+  <text x="295" y="776" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#6b7280">Nuevo</text>
+</svg>

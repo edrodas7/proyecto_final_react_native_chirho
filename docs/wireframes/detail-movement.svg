@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844" role="img" aria-labelledby="title desc">
+  <title id="title">Wireframe detalle y movimiento StockTrack Mobile Chirho</title>
+  <desc id="desc">Boceto de detalle de producto con datos principales, registro de movimiento e historial.</desc>
+  <rect width="390" height="844" fill="#f8fafc"/>
+  <rect x="18" y="18" width="354" height="808" rx="24" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+  <text x="36" y="62" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#6b7280">DETALLE</text>
+  <text x="36" y="92" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#111827">Guantes anticorte</text>
+  <rect x="258" y="62" width="76" height="28" rx="14" fill="#f3f4f6" stroke="#111827"/>
+  <text x="271" y="81" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#111827">Bajo</text>
+
+  <rect x="36" y="120" width="318" height="128" rx="8" fill="#ffffff" stroke="#111827"/>
+  <line x1="54" y1="146" x2="248" y2="146" stroke="#9ca3af" stroke-width="8"/>
+  <line x1="54" y1="168" x2="220" y2="168" stroke="#d1d5db" stroke-width="8"/>
+  <rect x="54" y="194" width="70" height="34" rx="6" fill="#f3f4f6" stroke="#111827"/>
+  <text x="72" y="216" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#111827">Stock</text>
+  <rect x="136" y="194" width="70" height="34" rx="6" fill="#f3f4f6" stroke="#111827"/>
+  <text x="154" y="216" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#111827">Min</text>
+  <rect x="218" y="194" width="70" height="34" rx="6" fill="#f3f4f6" stroke="#111827"/>
+  <text x="238" y="216" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#111827">Q</text>
+
+  <rect x="36" y="270" width="318" height="248" rx="8" fill="#ffffff" stroke="#111827"/>
+  <text x="54" y="300" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#111827">Registrar movimiento</text>
+  <text x="54" y="334" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#374151">Tipo</text>
+  <rect x="54" y="346" width="124" height="40" rx="8" fill="#ffffff" stroke="#111827"/>
+  <text x="72" y="371" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Salida</text>
+  <text x="200" y="334" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#374151">Cantidad</text>
+  <rect x="200" y="346" width="106" height="40" rx="8" fill="#ffffff" stroke="#111827"/>
+  <text x="220" y="371" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">4</text>
+  <text x="54" y="420" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#374151">Motivo</text>
+  <rect x="54" y="432" width="252" height="48" rx="8" fill="#ffffff" stroke="#111827"/>
+  <line x1="70" y1="456" x2="222" y2="456" stroke="#9ca3af" stroke-width="8"/>
+  <rect x="54" y="494" width="252" height="34" rx="8" fill="#f3f4f6" stroke="#111827"/>
+  <text x="112" y="516" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#111827">Guardar movimiento</text>
+
+  <text x="36" y="560" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#111827">Historial</text>
+  <rect x="36" y="582" width="318" height="72" rx="8" fill="#ffffff" stroke="#111827"/>
+  <text x="54" y="612" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#111827">Salida</text>
+  <line x1="54" y1="632" x2="190" y2="632" stroke="#9ca3af" stroke-width="8"/>
+  <text x="292" y="624" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#111827">-4</text>
+
+  <rect x="48" y="746" width="294" height="48" rx="8" fill="#ffffff" stroke="#111827"/>
+  <text x="74" y="776" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#6b7280">Inicio</text>
+  <text x="143" y="776" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#6b7280">Productos</text>
+  <text x="231" y="776" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#111827">Detalle</text>
+  <text x="295" y="776" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#6b7280">Nuevo</text>
+</svg>
